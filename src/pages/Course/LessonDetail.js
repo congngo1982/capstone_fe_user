@@ -278,9 +278,9 @@ const LessonDetail = () => {
             <div className="lesson-note">
               {numberOfLearnedLessons}/{totalLessons} lessons
             </div>{" "}
-            {
+            {/* {
               learningInfo?.status == "COMPLETED" || percentage == 100 ? (<div className="lesson-note" style={{color: 'red', fontWeight: 'bold'}}>Congrats! Please check your email to view certificate</div>) : <></>
-            }
+            } */}
             {/* Lesson note */}
           </div>
         </div>
