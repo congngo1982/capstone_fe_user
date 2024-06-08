@@ -302,7 +302,7 @@ export default function CourseDetails() {
                                             {lesson.duration}
                                             minutes
                                           </span> */}
-                                      <a href={videoUrl} target="_blank">
+                                      {/* <a href={videoUrl} target="_blank">
                                         {lesson.lock ? (
                                           <span>
                                             <i className="icofont-lock" />
@@ -316,7 +316,7 @@ export default function CourseDetails() {
                                             Preview
                                           </span>
                                         )}
-                                      </a>
+                                      </a> */}
                                     </div>
                                   </div>
                                 ))}
