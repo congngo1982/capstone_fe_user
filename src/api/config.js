@@ -1,6 +1,6 @@
 import axios from "axios";
 export const http = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://capstone-be-x5nd.onrender.com",
 });
 http.interceptors.request.use(
   (config) => {
